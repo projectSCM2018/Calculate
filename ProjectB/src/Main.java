@@ -1,9 +1,16 @@
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println("Inpout :");
+		
+		Scanner in = new Scanner(System.in);
+		int num = in.nextInt()
+		Month month = new Month(num);
+		
+		System.out.println("OutPut :" + Month.getMonth());
+		
 	}
 
 }
