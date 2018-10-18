@@ -1,4 +1,24 @@
-Nakorata Piathong
-thanakorn limsakul
-wanatthaphong pa.
-Natdanai Jarnpo
+Nakorata Piathong project b
+thanakorn limsakul project b
+wanatthaphong pa. project a
+Natdanai Jarnpo project a
+
+// all project
+		Scanner in = new Scanner(System.in);
+		int number = in.nextInt();
+		
+		//project 1
+		String[] num = new String[]{"zero","one","two","tree","four","five","six","seven","eight","nine"};
+		System.out.println(num[number]);
+		
+		// project2
+		String[] month = new String[]{"January", "February", "March", "April", "May" , "June", "July" , "August", "September", "October", "November", "December"};
+		System.out.println(month[number]);
+
+		ตัวเช็คตัวเลข ให้ไม่เกิน ..
+		
+		if(this.number>=0 && this.number<=12){
+			return true;
+		}else{
+			return false;
+		} 
