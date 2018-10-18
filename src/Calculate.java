@@ -31,5 +31,4 @@ public class Calculate {
 	 public String getNumberbyNum() {
 		 return this.num[this.number];
 	 }
-
 }
